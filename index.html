@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <title>Web演習 ポートフォリオ</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="backph">
+        <h1>Portfolio</h1>
+        <div class="scrolldown4"><span>Scroll</span></div>
+    </div>
+
+    <div class="wrap">
+        <ul class="tab">
+            <li><a href="#about">About</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#page">Page</a></li>
+        </ul>
+
+        <div id="about" class="area">
+            <h1>about</h1>
+            <ul class="about-list">
+                <li class="about-list__item">
+                    <dt>
+                        <h2>萩野 凜太郎</h2>
+                        <p>楽曲制作、webサイト作成、絵を描いたりしています。</p>
+                        <p>mail → <a href="mailto:i2124062@st.t-kougei.ac.jp">i2124062@st.t-kougei.ac.jp</a></p>
+                    <dd><a href="https://www.instagram.com/nunu_rari/" target="_blank" rel="noopener noreferrer"><img src="./img/instagram logo.png" alt=""
+                                width="60px" height="60px"></a></dd>
+                    </dt>
+                </li>
+                <li class="about-list__item">
+                    <img src="./img/me.jpg" alt="" width="400" height="459">
+                </li>
+            </ul>
+        </div>
+
+        <div id="images" class="area">
+            <h1>images</h1>
+            <ul class="images-list">
+                <li class="images-list__item">
+                    <a href="./img/vol4.jpg" class="gallery" data-group="gallery"><img src="./img/vol4.jpg" alt="" width="400" height="257"></a>
+                    <p>色の印象</p>
+                </li>
+                <li class="images-list__item">
+                    <a href="./img/vol5.png" class="gallery" data-group="gallery"><img src="./img/vol5.png" alt="" width="400" height="257"></a>
+                    <p>名刺</p>
+                </li>
+                <li class="images-list__item">
+                    <a href="./img/ueki_webdesign.jpg" class="gallery" data-group="gallery"><img src="./img/vol10.jpg" alt="" width="400" height="257"></a>
+                    <p>植木屋webデザイン</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="page" class="area">
+            <h1>page</h1>
+            <ul class="page-list">
+                <li class="page-list__item">
+                    <a href="https://i2124062.github.io/vol7/" target="_blank" rel="noopener noreferrer"><img src="./img/vol7.jpg" alt="" width="640" height="250"></a>
+                    <p>文字組みをしたhtml</p>
+                </li>
+                <li class="page-list__item">
+                    <a href="https://i2124062.github.io/vol12/" target="_blank" rel="noopener noreferrer"><img src="./img/vol12.jpg" alt="" width="640" height="250"></a>
+                    <p>コーディングした植木屋のサイト</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <small id="footer-item">&copy; 2022 Nurari Hagino.</small>
+    </footer>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <script src="js/web_pf.js"></script>
+</body>
+
+</html>
